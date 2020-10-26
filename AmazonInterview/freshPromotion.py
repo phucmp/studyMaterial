@@ -68,7 +68,8 @@ if __name__ == "__main__":
         ([["apple", "apple"], ["apple", "apple", "banana"]],  ["apple", "apple", "apple", "banana"]),
         ([],  ["apple", "apple", "apple", "banana"]),
         ([["apple", "apple"], ["apple", "apple", "banana"]],  []),
-        ([], [])
+        ([], []),
+        ([[],[]],  ["apple", "apple", "apple", "banana"]),
     ]
 
     for codelist, shoppingCart in test_cases:
