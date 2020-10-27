@@ -16,15 +16,3 @@ class InsertionSort(Solution):
     
     def output(self):
         print(self.sortedArr)
-
-# if __name__ == "__main__":
-#     # Test Cases
-#     arr = [3,2,8,4,1,6,7]
-#     # arr = [1,1,1,1,1,1]
-#     # arr = []
-#     # arr = [1]
-#     # arr = [0,0,0,0,0]
-#     # arr = [1,2,3,4,5]
-#     solution = InsertionSort()
-#     solution.solve(arr)
-#     solution.output()
